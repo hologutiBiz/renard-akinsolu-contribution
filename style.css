@@ -1,0 +1,76 @@
+
+body {
+   background-color: hsl(0, 0, 0); 
+   font-weight: 400;
+   font-family: "Noto Serif", serif;
+}
+
+nav {
+   display: flex;
+   margin: auto 3rem;
+}
+.brand {
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   gap: 15px;
+
+}
+.brand img {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}
+.brand h1 {
+   font-size: 20px;
+}
+
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto 3rem;
+
+}
+.summary {
+   display: flex;
+   justify-content: space-evenly;
+   line-height: 10px;
+   gap: 15px;
+   /* font-size: 1.3em; */
+}
+.summary div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   height: 150px;
+   border-radius: 5px;
+}  
+.summary div .fa-solid {
+   font-size: 40px;
+}
+.summary div span {
+   font-size: 30px;
+}
+.members-info {
+   color: #fff;
+   margin-right: 10px;
+   /* text-align: center; */
+   background-color: #0000ff;
+}
+.payment-info {
+   color: #fff;
+   margin: 0 10px;
+   /* text-align: center; */
+   background-color: #000;
+}
+.payment-amount-info {
+   color: #fff;
+   margin: 0 10px;
+   /* text-align: center; */
+   background-color: #008000;
+}
